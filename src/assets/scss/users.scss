@@ -1,0 +1,117 @@
+.wrapper{
+ position: relative;
+ 
+ height:100vh;
+ .v-progress-linear{
+    margin:0;
+    position: sticky;
+    font-size: 20px;
+}
+}
+
+.Users{
+    background-color:#FFF0F5;
+    opacity:0.9;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    color:#5F2580;
+    margin: 1% auto;
+    border-radius: 20px;
+    padding:3%;
+    // border: 1px solid rgb(148, 126, 176);
+    .guest_plus{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        gap:3%;
+        margin-bottom: 2%;
+       
+    }
+    .link{
+        text-align: center;
+        text-decoration: none;
+        width: 25%;
+        margin-top:5%;
+        // color:#FFF0F5;
+        color:#5F2580;
+        background-color: #FFF0F5;;
+        opacity:0.9;
+        padding:2%;
+        border-radius: 10px;
+        margin:5% auto 0 auto;
+        font-weight:500;
+        border: 1px solid #5F2580;
+    }
+    h4{
+         color:#5F2580;
+      
+    }
+
+    h5{
+        margin:0;
+        color:#5F2580;
+        text-align: center;
+    }
+    .v-text-field{
+        width: 100%;
+        padding:0;
+        margin:0;
+        
+    }
+    button{
+        
+        width:40px;
+        padding:1% 0;
+        background-color:  #FFF0F5;;
+        border-radius: 10px;
+        cursor:pointer;
+        font-weight:600;
+        border: 1px solid #5F2580;
+        // border: 1px solid rgb(148, 126, 176);
+    }
+    @media (max-width: 850px) {
+        width: 70%;
+        .link{
+            width:50%;
+        }
+    }
+    @media (max-width: 480px) {
+        width: 80%;
+        
+    }
+}
+body{
+    background: linear-gradient(153deg,#e59393,#9277c8,#df6c41);
+    background-size: 180% 180%;
+    animation: gradient-animation 15s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+    //     background: linear-gradient(360deg,#e59393,#9ae0e1,#ddd8e7,#9277c8);
+    //     background-size: 240% 240%;
+    //     animation: gradient-animation 36s ease infinite;
+    //   }
+      
+    //   @keyframes gradient-animation {
+    //     0% {
+    //       background-position: 0% 50%;
+    //     }
+    //     50% {
+    //       background-position: 100% 50%;
+    //     }
+    //     100% {
+    //       background-position: 0% 50%;
+    //     }
+      
+}

@@ -1,0 +1,92 @@
+.Products{
+    background-color:#FFF0F5;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 1% auto;
+    border-radius: 20px;
+    padding:3%;
+    color:#5F2580;
+    // border: 1px solid rgb(148, 126, 176);
+    h4{
+        text-align: center;
+    }
+    .link{
+        text-align: center;
+        text-decoration: none;
+        border: 1px solid #5F2580;
+        background-color:#FFF0F5;
+        width: 50%;
+        color:#5F2580;
+        padding:2%;
+        border-radius: 10px;
+        margin:5% auto 0 auto;
+        font-weight:500;
+      
+    }
+    button{
+        color:#5F2580;
+        border: 1px solid #5F2580;
+        width: 50%;
+        padding:2%;
+        border-radius: 10px;
+        background-color:#FFF0F5;
+        font-weight:500;
+        cursor:pointer;
+        margin: 5% auto;
+    }
+    input{
+        border:1px solid  rgb(148, 126, 176);;
+        border-radius: 10px;
+        padding:1%;
+        margin:0;
+        margin-top:5%;
+        width:40%
+    }
+    .title{
+        display:flex;
+        margin:0 auto;
+        justify-content: space-around;
+        width:100%;
+        
+    }
+    .payers{
+        flex-wrap: wrap;
+        margin-top:2%;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        gap:5%;
+
+    }
+    .eaters{
+        flex-wrap: wrap;
+        margin-top:2%;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        gap:5%;
+    }
+    @media (max-width: 850px) {
+        width: 70%;
+    }
+    @media (max-width: 480px) {
+        width: 80%;
+    }
+}
+body{
+    background: linear-gradient(153deg,#e59393,#9277c8,#df6c41);
+    background-size: 180% 180%;
+    animation: gradient-animation 15s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }}
